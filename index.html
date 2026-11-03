@@ -1,0 +1,80 @@
+<!--
+  Name: Ahmed Ibrahim Hassan Mohamed
+  Student ID: 225114114
+  Course: FT-WEB-101 - Task 1 (Profile page)
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ahmed Ibrahim Hassan Mohamed - Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Ahmed Ibrahim Hassan Mohamed</h1>
+
+    <nav class="bar">
+      <span class="bar-name">Ahmed Ibrahim Hassan Mohamed</span>
+      <div class="bar-right">
+        <ul class="bar-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#cards">Interests</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button id="theme-btn" class="btn theme-btn" type="button" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about" class="intro">
+      <img class="photo reveal" src="images/me.jpg" alt="Ahmed Ibrahim Hassan Mohamed standing by a railing in a university atrium, wearing a burgundy shirt">
+    </section>
+
+    <section id="cards" class="cards">
+      <article class="card reveal">
+        <h2>Skills</h2>
+        <ul>
+          <li>Programming</li>
+          <li>Problem-Solving</li>
+          <li>Technology Enthusiasm</li>
+        </ul>
+      </article>
+      <article class="card reveal">
+        <h2>Hobbies</h2>
+        <ul>
+          <li>Sports</li>
+          <li>Continuous Learning</li>
+          <li>Exploring Different Cultures</li>
+        </ul>
+      </article>
+      <article class="card reveal">
+        <h2>Goals</h2>
+        <p>To become a successful engineer at a leading global company and achieve great success and accomplishments in my professional and personal life.</p>
+      </article>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <h2>Leave a message</h2>
+      <form action="#" method="get">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+        <button class="btn" type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ahmed Ibrahim Hassan Mohamed. All rights reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
